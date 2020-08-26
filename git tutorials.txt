@@ -1,0 +1,85 @@
+#Video no 1: 
+
+#1) Configuration kasari garne
+
+1) hamile git vanera cmd prompt ma herim vane dherai commands heru chan..
+2) first ma git lai configuration garnu parne huncha
+3)git config enter garyo vane .. configuration ko lagi 
+4) cls
+5)git config --global user.name "bishalpokharel325" enter
+6) git config --global user.email "bishalpokharel325@gmail.com" enter
+7) code editor lai ni config garna milxa:
+git config --global core.editor "codeblock"
+8) configuration vayo vayena check garna ko lagi:
+git config --global user.name enter garda display gardincha
+
+#2) After doing configuration:
+
+1) go to folder where your project is.. and type cmd in the navigatio bar
+2) type command git init >> yesle new ripository create garxa
+3) tyo folder ma janu .. hidden ma baseko huncha .git tyo herne
+4) kunai particular file lai add garna:
+git add git tutorials.txt
+5) sapai file add garna
+git add .
+6)git status gerer aherda new file add vako tha huncha
+
+#3) add, commit, diff and log
+
+add
+
+1) new file banaune echo > introduction.txt
+2) git add . or git add introduction.txt
+
+commit
+
+
+3)git status ma jada no commit vanxa
+4) git commit -m "GIT sucessfully commited"
+5) yo hamle project ma change gareko kura ho
+6) go to introduction.txt and write something and type git status again... 
+7) change chai gariyo comment vayena vanxa
+8) git commit -m "Update"
+9) feri git status herne: modify gariyo but add chai gariyena
+10) git add introduction.txt
+11) git commit -m "update"
+12) one file changed vanxa.... 
+
+13) git log garera herne: tya random token aako huncha
+author ko ho log ko system ma display garirako cha
+14) feri introduction ko file change gardim
+15) git status
+16) git diff : yesle paila k theo ra aile k cha vanera dekhaucha
+17) feri git add garne ani git commit -m "update" garne 
+feri git status garda feri commit vayo
+
+
+#video no 3:
+
+18) github .com ma login garne
+19) create new nai garna ni milcha repository
+20) git commit garisakexi
+
+adding remote origin initially
+
+
+21) yo git hub mai huncha
+git remote add origin https://github.com/bishalpokharel325/repository ko name.git
+22) git push garna:
+git push -u origin master 
+23) login detail dene:
+
+
+update garna after adding remote origin
+24) suppose kei change garum git ko folder project ma...change garim re then
+25) commit paxi:
+update garne bela ma:
+git push origin master garne
+26) update vako git hub ma ni update garxa 
+
+summary:
+1) git status
+2) git add .
+3) git commit -m "update no#"
+4) git push origin master
+
